@@ -1,0 +1,30 @@
+{
+  "name": "expense-tracker-app",
+  "slug": "expense-tracker-app",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "userInterfaceStyle": "light",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.expensetracker.app"
+  },
+  "android": {
+    "package": "com.expensetracker.app"
+  },
+  "web": {
+    "bundler": "metro"
+  },
+  "plugins": [],
+  "experiments": {
+    "typedRoutes": false
+  }
+}
